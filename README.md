@@ -4,7 +4,7 @@
 
 **Day 02 / 30 - April Vibe Coding Challenge**
 
-## Try the live demo - [Demo](https://neurocalc-your-link.vercel.app)
+## Try the live demo - [Demo](https://neuro-calc-smart-ai-calculator.vercel.app/)
 
 NeuroCalc is a premium, natural-language mathematical solver powered by **GPT-OSS-120B**, a highly proficient mathematical LLM. Instead of punching rigid numbers into a traditional calculator, simply type your problem exactly as it sounds in your head, and watch the AI break down the logic step-by-step.
 
@@ -54,6 +54,8 @@ I have provided a simple Node.js proxy server in a separate repo.
 
 Refer to this repo's Readme for the backend setup:
 [Backend Node Server Repo](https://github.com/Barrsum/Simple-Node-Backend-Server-For-Nvidia-AI-Processing)
+
+create a '.env' file in root folder with value "VITE_API_URL=https://YOUR-BACKEND-URL"
 
 **Option B: Configure Frontend to point to your Proxy**
 Open `src/services/aiService.js` and update the `API_URL` to point to your running local proxy or production backend:

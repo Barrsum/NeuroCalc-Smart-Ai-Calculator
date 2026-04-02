@@ -1,6 +1,6 @@
 // src/services/aiService.js
 
-const API_URL = "https://demoproxy-5pt4k6sthq-el.a.run.app";
+const API_URL = import.meta.env.VITE_API_URL;
 const MODEL_NAME = "openai/gpt-oss-120b";
 
 /**
